@@ -99,12 +99,12 @@ if __name__ == "__main__":
 
     #now=datetime.now(pytz.timezone('Asia/Kolkata'))
     #current = now.strftime('%Y/%m/%d %I:%M:%P')
-    LOG_GROUP = -1001280533370
+    LOG_GROUP = -1001495085614
     dispatcher.bot.sendMessage(f'{LOG_GROUP}', f"Bot is Successfully Restarted By Heroku !! ")
 
     # Starting The Bot
     app.start()
-    dispatcher.bot.sendMessage(1978774817, f"Bot is Successfully Restarted By Heroku !! ")
+    dispatcher.bot.sendMessage(1860296997, f"Bot is Successfully Restarted By Heroku !! ")
     ##############################################################################
     incoming_message_handler = MessageHandler(
         incoming_message_f,
